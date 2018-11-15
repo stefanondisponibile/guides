@@ -4,7 +4,7 @@
 2. `sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools node-less`;
 3. `sudo useradd -m -d /opt/odoo -U -r -s /bin/bash odoo`;
 4. `sudo apt-get install postgresql`;
-5. `sudo su - postgres -c "createuser -S odoo"` (as stated in [Odoos's Official Documentation](http://www.odoo.com/documentation/10.0/setup/deploy.html#postgresql), the postgresql user must _not_ be a a super-user);
+5. `sudo su - postgres -c "createuser -s odoo"` (as stated in [Odoos's Official Documentation](http://www.odoo.com/documentation/10.0/setup/deploy.html#postgresql), the postgresql user must _not_ be a a super-user);
 6. `cd /tmp && sudo wget https://builds.wkhtmltopdf.org/0.12.1.3/wkhtmltox_0.12.1.3-1~bionic_amd64.deb`;
 7. `sudo dpkg -i wkhtmltox_0.12.1.3-1~bionic_amd64.deb` (ignore errors);
 8. `sudo apt-get install -f`;
