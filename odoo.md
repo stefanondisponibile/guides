@@ -71,3 +71,9 @@
 28. Go to `http://<your_domain_or_IP_address>:8069`;
 
 See https://linuxize.com/post/how-to-deploy-odoo-11-on-ubuntu-18-04/#disqus_thread
+
+
+###
+Useful repos:
+
+https://github.com/Odoo-Italia-Associazione/l10n-italy/tree/11.0
