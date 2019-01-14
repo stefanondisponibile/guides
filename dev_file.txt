@@ -1,1 +1,2 @@
 This is a new mock file from development branch.
+Now someone's modified it.
